@@ -11495,7 +11495,7 @@ function gh() {
                     K.jsx(
                       Lc,
                       {
-                        path: `/${f.name.toLowerCase()}`,
+                        path: `/react-gh-pages/${f.name.toLowerCase()}`,
                         element: K.jsx(Wd, {
                           selectedColor: a,
                           arabicDiacritics: f.unicode.slice(2),
