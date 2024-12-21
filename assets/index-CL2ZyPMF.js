@@ -9537,7 +9537,7 @@ function Yd({
             children: [
               K.jsx("div", {
                 children: K.jsx(qi, {
-                  menu: { title: "আরবী বর্ণমালা", src: "/" },
+                  menu: { title: "আরবী বর্ণমালা", src: "/react-gh-pages/" },
                   submenu: [],
                 }),
               }),
@@ -9546,9 +9546,9 @@ function Yd({
                 children: K.jsx(qi, {
                   menu: { title: "হরকত", src: "" },
                   submenu: [
-                    { title: "আরবী বর্ণমালা যবর সহ", src: "/fathah" },
-                    { title: "আরবী বর্ণমালা যের সহ", src: "/kasrah" },
-                    { title: "আরবী বর্ণমালা পেশ সহ", src: "/dhammah" },
+                    { title: "আরবী বর্ণমালা যবর সহ", src: "/react-gh-pages/fathah" },
+                    { title: "আরবী বর্ণমালা যের সহ", src: "/react-gh-pages/kasrah" },
+                    { title: "আরবী বর্ণমালা পেশ সহ", src: "/react-gh-pages/dhammah" },
                   ],
                 }),
               }),
@@ -9558,15 +9558,15 @@ function Yd({
                   submenu: [
                     {
                       title: "আরবী বর্ণমালা দুই যবর সহ",
-                      src: "/fathahtanween",
+                      src: "/react-gh-pages/fathahtanween",
                     },
                     {
                       title: "আরবী বর্ণমালা দুই যের সহ",
-                      src: "/kasrahtanween",
+                      src: "/react-gh-pages/kasrahtanween",
                     },
                     {
                       title: "আরবী বর্ণমালা দুই পেশ সহ",
-                      src: "/dhammahtanween",
+                      src: "/react-gh-pages/dhammahtanween",
                     },
                   ],
                 }),
