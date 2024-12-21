@@ -9537,7 +9537,7 @@ function Yd({
             children: [
               K.jsx("div", {
                 children: K.jsx(qi, {
-                  menu: { title: "আরবী বর্ণমালা", src: "/react-gh-pages/" },
+                  menu: { title: "আরবী বর্ণমালা", src: "/" },
                   submenu: [],
                 }),
               }),
@@ -9546,9 +9546,9 @@ function Yd({
                 children: K.jsx(qi, {
                   menu: { title: "হরকত", src: "" },
                   submenu: [
-                    { title: "আরবী বর্ণমালা যবর সহ", src: "/react-gh-pages/fathah" },
-                    { title: "আরবী বর্ণমালা যের সহ", src: "/react-gh-pages/kasrah" },
-                    { title: "আরবী বর্ণমালা পেশ সহ", src: "/react-gh-pages/dhammah" },
+                    { title: "আরবী বর্ণমালা যবর সহ", src: "/fathah" },
+                    { title: "আরবী বর্ণমালা যের সহ", src: "/kasrah" },
+                    { title: "আরবী বর্ণমালা পেশ সহ", src: "/dhammah" },
                   ],
                 }),
               }),
@@ -9558,15 +9558,15 @@ function Yd({
                   submenu: [
                     {
                       title: "আরবী বর্ণমালা দুই যবর সহ",
-                      src: "/react-gh-pages/fathahtanween",
+                      src: "/fathahtanween",
                     },
                     {
                       title: "আরবী বর্ণমালা দুই যের সহ",
-                      src: "/react-gh-pages/kasrahtanween",
+                      src: "/kasrahtanween",
                     },
                     {
                       title: "আরবী বর্ণমালা দুই পেশ সহ",
-                      src: "/react-gh-pages/dhammahtanween",
+                      src: "/dhammahtanween",
                     },
                   ],
                 }),
@@ -11487,7 +11487,6 @@ function gh() {
               alphabetColorCombinations: Ji,
             }),
             K.jsx(ah, {
-              basename: "/react-gh-pages",
               children: K.jsx("div", {
                 className: "flex-1 p-8",
                 children: K.jsx($p, {
@@ -11495,7 +11494,7 @@ function gh() {
                     K.jsx(
                       Lc,
                       {
-                        path: `/react-gh-pages/${f.name.toLowerCase()}`,
+                        path: `/${f.name.toLowerCase()}`,
                         element: K.jsx(Wd, {
                           selectedColor: a,
                           arabicDiacritics: f.unicode.slice(2),
